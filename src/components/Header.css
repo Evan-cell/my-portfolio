@@ -6,6 +6,12 @@ header .container{
     padding-top: 15px;
 
 }
+.logo img{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
 .nav-link{
     align-items: center;
 }
@@ -32,4 +38,11 @@ header ul li a:hover{
 .home-btn{
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow: 4px 4px 8px #cbccbc, 4px -4px 8px #ffffff;
+}
+.home-btn:hover{
+    background-color: #ff014f;
+    color: white;
+}
+.open{
+    display: none;
 }
