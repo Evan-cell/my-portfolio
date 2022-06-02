@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./Header.css"
 function Header() {
   return (
     <header className='header'>
@@ -18,6 +18,9 @@ function Header() {
                     <li><a href="#contact">contact</a></li>
                     <button className="home-btn">Hire me</button>
                 </ul>
+                <button className="toggle">
+                    <i className="fas fa-times"></i>
+                </button>
             </div>
         </div>
     </header>
